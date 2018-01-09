@@ -9,7 +9,7 @@ React - states and events
 **Steps to follow**
 
 :one: clone git repo with 
-**npm clone https://github.com/SachinKasar/reactjs-state-and-event-handling.git**
+**git clone https://github.com/SachinKasar/reactjs-state-and-event-handling.git**
 
 :two: install npm packages with command
 **npm install**
