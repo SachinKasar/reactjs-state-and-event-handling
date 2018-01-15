@@ -5,12 +5,13 @@ export class TwoWheeler extends React.Component {
 	constructor(props) {
 		super();
 	    this.price = props.price;
-		// this.state = {price:props.price}
+        // this.state = {price:props.price}
 		this.handleOnClick = this.handleOnClick.bind(this);
 	}
 	
 	handleOnClick() {
-		this.price = "Rs.100000";
+		  this.price = "Rs.100000";
+        // this.state.price = "Rs. 100000";
 		// this.setState({price:'Rs. 100000'});
 		console.log('Get New Price');
 	}
