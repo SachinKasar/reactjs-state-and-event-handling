@@ -17,8 +17,9 @@ export class TwoWheeler extends React.Component {
 	
     render() {
         return ( 
-		    <div className="container">
-                <div className="row">
+		    <div  style={{border: '1px solid grey'}}>
+               <div className="container">
+                
 				    <div className="row">
 						<h1 style={{color:'blue'}}> Two Wheeler </h1>
 						<ul>
@@ -38,6 +39,7 @@ export class TwoWheeler extends React.Component {
 					</div>
 				</div>
 				</div>
+            
       
         );
     } 
